@@ -1,5 +1,5 @@
 # NovaMart E2E — Playwright + JavaScript
-
+![E2E tests](https://github.com/murnaqvi28/novamart-e2e/actions/workflows/e2e.yml/badge.svg)
 End-to-end test automation for **[NovaMart](https://novamart-ot9u.onrender.com)**, a full-stack e-commerce store (React + Express + PostgreSQL).
 
 The suite covers the UI, the REST API, and the API contract (OpenAPI schema), and runs in GitHub Actions on every push and every morning.
