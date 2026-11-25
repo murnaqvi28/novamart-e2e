@@ -1,0 +1,22 @@
+{
+  "name": "novamart-e2e",
+  "version": "1.0.0",
+  "description": "End-to-end UI, API and contract test automation for the NovaMart e-commerce store (Playwright + JavaScript)",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test --project=api",
+    "test:ui": "playwright test --project=chromium",
+    "test:mobile": "playwright test --project=mobile",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:headed": "playwright test --project=chromium --headed",
+    "test:debug": "playwright test --project=chromium --debug",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "dotenv": "^18.0.10"
+  }
+}
